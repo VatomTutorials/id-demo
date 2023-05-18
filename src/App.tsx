@@ -27,7 +27,3 @@ function App() {
 }
 
 export default App
-
-
-
-//         <h1>Here we go. &nbsp; Here we go. &nbsp; Here we go.</h1>
