@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     if(divRef.current){
-      new VatomIdentitySDK(divRef.current, authority, clientId,onLogin)
+      new VatomIdentitySDK(divRef.current, clientId, onLogin)
     }
   }, [divRef])
 
