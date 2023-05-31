@@ -17,7 +17,8 @@ function App() {
   const clientId = "dce3993b6a24c278" // Vatom Developer Playground
 
   const onLogin= (data) =>{
-    console.log(data)
+  	console.log('Show payload from Identity SDK:');
+    console.log(data);
   }
 
   useEffect(() => {
