@@ -14,7 +14,8 @@ function App() {
   // Dev server ports can be configured in '/id-demo/vite.config.ts'.
   
   //const clientId = "c8a80a8b11235f15" // Will Pulier
-  const clientId = "dce3993b6a24c278" // Vatom Developer Playground
+  const clientId = "64673d4cf19366e2" // Will Powell
+  //const clientId = "dce3993b6a24c278" // Vatom Developer Playground
 
   const onLogin= (data) =>{
   	console.log('Show payload from Identity SDK:');
